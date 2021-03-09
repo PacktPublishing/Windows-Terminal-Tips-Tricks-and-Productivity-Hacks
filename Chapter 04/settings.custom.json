@@ -77,6 +77,11 @@
                 "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico"
             },
             {
+                "guid": "{2680905a-8064-435f-9959-bdd6eca8910a}",
+                "name": "Developer PowerShell Prompt",
+                "commandline": "powershell.exe -NoExit -Command \"&{ $vsInstallPath=& \"${env:ProgramFiles(x86)}/'Microsoft Visual Studio'/Installer/vswhere.exe\" -prerelease -latest -property installationPath; Import-Module \"$vsInstallPath/Common7/Tools/Microsoft.VisualStudio.DevShell.dll\"; Enter-VsDevShell -VsInstallPath $vsInstallPath -SkipAutomaticLocation }\""
+            },
+            {
                 "guid": "{9cc08496-78d7-4d73-8a71-3c8a218e3e2b}",
                 "name": "Remote Machine",
                 "commandline": "ssh user@example.com"
