@@ -1,0 +1,25 @@
+# SSH client configuration from Chapter 13. Normally located in C:\Users\{Username}\.ssh
+
+Host *
+    AddKeysToAgent yes
+
+Host "home"
+    HostName home-server.example.com
+    Port 443
+    User william
+    IdentityFile ~/.ssh/id_ed25519
+    RemoteCommand pwsh -WorkingDirectory /
+    RequestTTY yes
+
+Host "router", "wifi"
+    HostName 192.168.1.1
+    User admin
+
+Host "198.51.100.*", "203.0.113.*"
+    User ubuntu
+    IdentityFile ~/.ssh/id_cloud_user.pem
+
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
