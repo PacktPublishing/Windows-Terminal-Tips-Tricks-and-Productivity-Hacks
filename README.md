@@ -2,6 +2,8 @@
 
 <a href="https://www.packtpub.com/product/windows-terminal-tips-tricks-and-productivity-hacks/9781800207561"><img src="https://static.packt-cdn.com/products/9781800207561/cover/smaller" alt="Book Name" height="256px" align="right"></a>
 
+This is the code repository for [Windows Terminal Tips, Tricks, and Productivity Hacks](https://www.packtpub.com/product/windows-terminal-tips-tricks-and-productivity-hacks/9781800207561), published by Packt.
+
 **Optimize your command-line usage and development processes with these pro-level techniques**
 
 ## What is this book about?
